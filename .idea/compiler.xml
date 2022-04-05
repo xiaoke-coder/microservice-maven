@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo06-mysql-data-provider" />
+        <module name="demo04-memorials-manager-center" />
+        <module name="demo08-base-api" />
+        <module name="demo10-base-util" />
+        <module name="demo03-emp-manager-center" />
+        <module name="demo07-redis-data-provider" />
+        <module name="demo09-base-entity" />
+        <module name="demo02-user-auth-center" />
+        <module name="demo01-imperial-court-gateway" />
+        <module name="demo05-working-manager-center" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

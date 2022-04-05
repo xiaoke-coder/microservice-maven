@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xml:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+
+<form th:action="@{/consumer/do/login}" method="post">
+    <p style="color: red;font-weight: bold;" th:if="${not #strings.isEmpty(message)}" th:text="${message}">
+        这里根据条件显示登录失败消息</p>
+    <p style="color: red;font-weight: bold;" th:if="${not #strings.isEmpty(systemMessage)}" th:text="${systemMessage}">
+        这里根据条件显示系统消息</p>
+    账号：<input type="text" name="loginAccount"/><br/>
+    密码：<input type="password" name="loginPassword"><br/>
+    <button type="submit">进宫</button>
+</form>
+</body>
+</html>
